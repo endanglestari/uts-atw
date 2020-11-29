@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
-use App\Http\Controllers\ProdukController;
+use App\Http\Controllers\GardeningController;
 use App\Http\Controllers\KategoriController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\AuthController;
@@ -26,11 +26,10 @@ Route::get('/', function () {
 Route::get('beranda', [HomeController::class, 'showBeranda']);
 Route::get('kontak', [HomeController::class, 'showKontak']);
 
-	Route::resource('produk', ProdukController::class);
+	Route::resource('gardening', GardeningController::class);
 	Route::resource('kategori', KategoriController::class);
 	Route::resource('user', UserController::class);
 	Route::resource('register', RegisterController::class);
-});
 
 
 Route::get('login', [AuthController::class, 'showLogin'])->name('login');
