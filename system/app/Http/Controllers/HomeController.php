@@ -13,10 +13,6 @@ class HomeController extends Controller {
 		return view('home');
 	}
 
-	function showTulip(){
-		return view('tulip');
-	}
-
 	function showBlog(){
 		return view('blog');
 	}
