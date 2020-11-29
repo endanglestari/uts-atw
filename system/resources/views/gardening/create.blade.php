@@ -7,7 +7,7 @@
 			<div class="col-md-12 mt-5">
 				<div class="card">
 					<div class="card-header">
-					 Tambah Data Gardening
+					 Tambah Data Flowers
 					</div>
 					<div class="card-body">
 						<form action="{{url('gardening')}}" method="post">

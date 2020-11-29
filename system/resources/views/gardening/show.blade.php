@@ -7,7 +7,7 @@
 			<div class="col-md-12 mt-5">
 				<div class="card">
 					<div class="card-header">
-					 Detail Gardening
+					 Detail Flowers
 					</div>
 					<div class="card-body">
 						<h3>{{$gardening->judul}}</h3>

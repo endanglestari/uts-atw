@@ -7,7 +7,7 @@
 			<div class="col-md-12 mt-5">
 				<div class="card">
 					<div class="card-header">
-					 Data Gardening
+					 Data Flowers
 					 <a href="{{url('gardening/create')}}" class="btn btn-dark float-right"><i class="fa fa-plus"></i> Tambah Data</a>
 					</div>
 					<div class="card-body">
