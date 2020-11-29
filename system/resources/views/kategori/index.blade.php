@@ -26,9 +26,9 @@
 									<td>{{$loop->iteration}}</td>
 									<td>
 										<div class="btn-group">
-										<a href="{{url('admin/kategori', $kategori->id)}}" class="btn btn-dark"><span class="fa fa-info"></span></a>
-										<a href="{{url('admin/kategori', $kategori->id)}}/edit" class="btn btn-warning"><span class="fa fa-edit"></span></a>
-										@include('template.utils.delete', ['url' => url('admin/kategori', $kategori->id)])
+										<a href="{{url('kategori', $kategori->id)}}" class="btn btn-dark"><span class="fa fa-info"></span></a>
+										<a href="{{url('kategori', $kategori->id)}}/edit" class="btn btn-warning"><span class="fa fa-edit"></span></a>
+										@include('template.utils.delete', ['url' => url('kategori', $kategori->id)])
 									</div>
 									</td>
 									<td>{{$kategori->jenis}}</td>

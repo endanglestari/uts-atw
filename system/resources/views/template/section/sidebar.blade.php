@@ -50,32 +50,8 @@
             <a href="{{url('gardening')}}" class="nav-link">
               <i class="nav-icon far fa-calendar-alt"></i>
               <p>
-                Gardening
+                Flowers
                 <span class="badge badge-info right"></span>
-              </p>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="{{url('outdoor')}}" class="nav-link">
-              <i class="nav-icon far fa-image"></i>
-              <p>
-                Outdoor Living
-              </p>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="{{url('indoor')}}" class="nav-link">
-              <i class="nav-icon far fa-image"></i>
-              <p>
-                Indoor Living
-              </p>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="{{url('shopping')}}" class="nav-link">
-              <i class="nav-icon far fa-image"></i>
-              <p>
-                Shopping Guides
               </p>
             </a>
           </li>

@@ -41,23 +41,6 @@ class KategoriController extends Controller {
 
 		return redirect('kategori');
 	}
-	function filter(){
-		$jenis = request('jenis');
-		$nama = request('nama');
-		$stok = explode(",", request('stok'));
-		$data['list_kategori'] = Kategori::where('jenis', 'like', "%$jenis%")->get();
-		//$data['list_kategori'] = Kategori::where('nama', 'like', "%$nama%")->get();
-		//$data['list_kategori'] = Kategori::whereIn('stok', $stok)->get();
-		//$data['list_kategori'] = Kategori::whereNot('stok', $stok)->get();
-		//$data['list_kategori'] = Kategori::whereNotIn('stok', $nama)->get();
-		//$data['list_kategori'] = Kategori::whereNull('stok')->get();
-		//$data['list_kategori'] = Kategori::whereNotNull('stok')->get();
-		//$data['list_kategori'] = Kategori::whereDate('created_at', '2020-11-15')->get();
-		//$data['list_kategori'] = Kategori::whereYear('created_at', '2020')->get();
-		$data['jenis'] = $jenis;
-		$data['nama'] = $nama;
-		$data['stok'] = request('stok');
-		return view('kategori.index', $data);
-	}
+	
 	
 }

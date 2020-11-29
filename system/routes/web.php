@@ -33,6 +33,8 @@ Route::get('spesial', [HomeController::class, 'showSpesial']);
 Route::get('baru', [HomeController::class, 'showBaru']);
 Route::get('harga', [HomeController::class, 'showHarga']);
 Route::get('contact', [HomeController::class, 'showContact']);
+Route::get('tulip', [HomeController::class, 'showTulip']);
+Route::get('blog', [HomeController::class, 'showBlog']);
 
 	Route::resource('gardening', GardeningController::class);
 	Route::resource('kategori', KategoriController::class);
