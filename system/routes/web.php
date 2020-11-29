@@ -25,6 +25,14 @@ Route::get('/', function () {
 
 Route::get('beranda', [HomeController::class, 'showBeranda']);
 Route::get('kontak', [HomeController::class, 'showKontak']);
+Route::get('home', [HomeController::class, 'showHome']);
+Route::get('about', [HomeController::class, 'showAbout']);
+Route::get('flowers', [HomeController::class, 'showFlowers']);
+Route::get('akun', [HomeController::class, 'showAkun']);
+Route::get('spesial', [HomeController::class, 'showSpesial']);
+Route::get('baru', [HomeController::class, 'showBaru']);
+Route::get('harga', [HomeController::class, 'showHarga']);
+Route::get('contact', [HomeController::class, 'showContact']);
 
 	Route::resource('gardening', GardeningController::class);
 	Route::resource('kategori', KategoriController::class);

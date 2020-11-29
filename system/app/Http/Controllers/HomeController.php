@@ -9,6 +9,38 @@ class HomeController extends Controller {
 		return view('beranda');
 	}
 
+	function showHome(){
+		return view('home');
+	}
+
+	function showAbout(){
+		return view('about');
+	}
+
+	function showFlowers(){
+		return view('flowers');
+	}
+
+	function showSpesial(){
+		return view('spesial');
+	}
+
+	function showAkun(){
+		return view('akun');
+	}
+
+	function showBaru(){
+		return view('baru');
+	}
+
+	function showHarga(){
+		return view('harga');
+	}
+
+	function showContact(){
+		return view('contact');
+	}
+
 	function showKategori(){
 		return view('kategori');
 	}
